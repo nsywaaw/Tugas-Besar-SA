@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Besar Strategi Algoritma</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Penjadwalan Ujian</h1>
+    <div>
+        <button id="greedyButton">Greedy</button>
+        <button id="backtrackingButton">Backtracking</button>
+    </div>
+    <table id="schedule">
+        <thead>
+            <tr>
+                <th rowspan="2">Hari</th>
+                <th rowspan="2">Waktu</th>
+                <th colspan="5">Ruangan</th>
+            </tr>
+            <tr>
+                <th>KU3.05.12</th>
+                <th>KU3.05.13</th>
+                <th>KU3.04.18</th>
+                <th>KU3.04.19</th>
+                <th>KU3.04.20</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Senin</th>
+                <th>7.30-9.30</th>
+                <td id="S1R1"></td>
+                <td id="S1R2"></td>
+                <td id="S1R3"></td>
+                <td id="S1R4"></td>
+                <td id="S1R5"></td>
+            </tr>
+            <tr>
+                <th>Senin</th>
+                <th>12.30-14.30</th>
+                <td id="S2R1"></td>
+                <td id="S2R2"></td>
+                <td id="S2R3"></td>
+                <td id="S2R4"></td>
+                <td id="S2R5"></td>
+            </tr>
+            <tr>
+                <th>Selasa</th>
+                <th>7.30-9.30</th>
+                <td id="S3R1"></td>
+                <td id="S3R2"></td>
+                <td id="S3R3"></td>
+                <td id="S3R4"></td>
+                <td id="S3R5"></td>
+            </tr>
+            <tr>
+                <th>Selasa</th>
+                <th>12.30-14.30</th>
+                <td id="S4R1"></td>
+                <td id="S4R2"></td>
+                <td id="S4R3"></td>
+                <td id="S4R4"></td>
+                <td id="S4R5"></td>
+            </tr>
+            <tr>
+                <th>Rabu</th>
+                <th>7.30-9.30</th>
+                <td id="S5R1"></td>
+                <td id="S5R2"></td>
+                <td id="S5R3"></td>
+                <td id="S5R4"></td>
+                <td id="S5R5"></td>
+            </tr>
+            <tr>
+                <th>Rabu</th>
+                <th>12.30-14.30</th>
+                <td id="S6R1"></td>
+                <td id="S6R2"></td>
+                <td id="S6R3"></td>
+                <td id="S6R4"></td>
+                <td id="S6R5"></td>
+            </tr>
+            <tr>
+                <th>Kamis</th>
+                <th>7.30-9.30</th>
+                <td id="S7R1"></td>
+                <td id="S7R2"></td>
+                <td id="S7R3"></td>
+                <td id="S7R4"></td>
+                <td id="S7R5"></td>
+            </tr>
+            <tr>
+                <th>Kamis</th>
+                <th>12.30-14.30</th>
+                <td id="S8R1"></td>
+                <td id="S8R2"></td>
+                <td id="S8R3"></td>
+                <td id="S8R4"></td>
+                <td id="S8R5"></td>
+            </tr>
+            <tr>
+                <th>Jumat</th>
+                <th>7.30-9.30</th>
+                <td id="S9R1"></td>
+                <td id="S9R2"></td>
+                <td id="S9R3"></td>
+                <td id="S9R4"></td>
+                <td id="S9R5"></td>
+            </tr>
+            <tr>
+                <th>Jumat</th>
+                <th>12.30-14.30</th>
+                <td id="S10R1"></td>
+                <td id="S10R2"></td>
+                <td id="S10R3"></td>
+                <td id="S10R4"></td>
+                <td id="S10R5"></td>
+            </tr>
+        </tbody>
+    </table>
+    <div id="graphContainer">
+        <h2>Graph Coloring</h2>
+    <div id="graph"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
